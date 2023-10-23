@@ -1,6 +1,9 @@
 # YENETTA CODE BOOTCAMP TEST
-
-## PRODUCT MANAGEMENT SYSTEM
+--------------------------------------
+--------------------------------------
+## PRODUCT MANAGEMENT SYSTEM CRUD OPERATIONS
+--------------------------------------
+--------------------------------------
 
 ## Getting Started
 ## Prerequest 
@@ -37,7 +40,7 @@ To start the React app use the following command:
 `npm start`
 
 # project Link
-Link click [here](https://product-management-system-yc.vercel.app)
+Click [here](https://product-management-system-yc.vercel.app) to visit the site
 or use this link `https://product-management-system-yc.vercel.app`
 
 
@@ -49,6 +52,8 @@ or use this link `https://product-management-system-yc.vercel.app`
 ![COMMANDS!](screenshots/out_of_stock.png)
 --------------------------------------
 ![COMMANDS!](screenshots/stock.png)
+--------------------------------------
+![COMMANDS!](screenshots/empty_out_of_stock.png)
 --------------------------------------
 ![COMMANDS!](screenshots/edit_product.png)
 --------------------------------------

@@ -45,7 +45,7 @@ const EditProduct = () => {
         <Navbar />
         <h1 className='head'>Edit Product</h1>
         <form onSubmit={editProduct}>
-            <p className='edit'>Edit the field you want to change</p>
+            <p className='edit'>Edit the field/fields you want to change</p>
             <input type='text' 
             placeholder={'title'} 
             value={title} 

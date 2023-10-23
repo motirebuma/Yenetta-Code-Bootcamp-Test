@@ -18,7 +18,7 @@ h1.head{
   font-size: 40px;
   font-weight: 400;
   color: #F6F1F1;
-  margin: 20px 0 0 10px;
+  margin: 20px 0;
 }
 form{
   padding: 30px 20px;
@@ -26,8 +26,8 @@ form{
   justify-self: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
-  box-shadow: #ed7d31 0px 8px 24px;
+  gap: 15px;
+  box-shadow: #fff 0px 8px 24px;
 }
 
 form h1{
