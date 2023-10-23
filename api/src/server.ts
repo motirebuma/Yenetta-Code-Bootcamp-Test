@@ -8,7 +8,7 @@ const app = express();
 
 const corsOptions = {
     credentials: true,
-    origin: ['https://product-management-system-yc.vercel.app/', 'http://localhost:3000']
+    origin: ['https://product-management-system-yc.vercel.app', 'http://localhost:3000']
 };
   
 app.use(cors(corsOptions));
