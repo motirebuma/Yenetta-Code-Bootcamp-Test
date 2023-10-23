@@ -38,19 +38,21 @@ To start the React app use the following command:
 `npm start`
 
 # project Link
-Project Link [Link](https://product-management-system-yc.vercel.app)
+Project Link [Product Management System](https://product-management-system-yc.vercel.app)
+or
+`https://product-management-system-yc.vercel.app`
 
 
+
+![COMMANDS!](screeenshots/all_products.png)
 --------------------------------------
-![img!](/screeenshots/all_products.png)
+![COMMANDS!](/screeenshots/create_product.png)
 --------------------------------------
-![img!](/screeenshots/create_product.png)
+![COMMANDS!](/screeenshots/out_of_stock.png)
 --------------------------------------
-![img!](/screeenshots/out_of_stock.png)
+![COMMANDS!](/screeenshots/stock.png)
 --------------------------------------
-![img!](/screeenshots/stock.png)
---------------------------------------
-![img!](/screeenshots/edit_product.png)
+![COMMANDS!](/screeenshots/edit_product.png)
 --------------------------------------
 
 
