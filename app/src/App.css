@@ -28,6 +28,7 @@ form{
   flex-direction: column;
   gap: 15px;
   box-shadow: #fff 0px 8px 24px;
+  border-radius: 4px;
 }
 
 form h1{
@@ -82,3 +83,18 @@ form p.edit:hover{
   color: #fff;
 }
 
+/* media query */
+@media (max-width: 800px){
+  form input,
+  form button{
+    width: 100%;
+  }
+  form{
+    margin: 20px 10px;
+    width: 350px;
+    border-radius: 5px;
+  }
+  h1.head{
+    font-size: 30px;
+  }
+}

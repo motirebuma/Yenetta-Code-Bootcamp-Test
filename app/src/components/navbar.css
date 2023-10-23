@@ -62,7 +62,6 @@ a{
 
 }
 
-
 .available3{
     left: 330px;
     position: absolute;
@@ -74,4 +73,44 @@ a{
     color: #fff;
     font-size: 17px;
     padding: 3px 8px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 800px){
+  .navbar{
+    width: 360px;
+    top: 87vh;
+  }
+  a{
+    height: 65px;
+    width: 65px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px #fff;
+  }
+  a:hover,
+  a:active{
+    transform: scale(1.13);
+    transition: 0.2s;
+  }
+  h1.head{
+    font-size: 30px;
+  }
+  .available{
+      position: fixed;
+      top: 87.5vh;
+  }
+  /* allproducts */
+  .available1{
+        left: -25px;
+   }
+  /* stock */
+  .available2{
+        left: 60px;
+   }
+  /* out_of_stock */
+  .available3{
+      left: 160px;
+  }
 }

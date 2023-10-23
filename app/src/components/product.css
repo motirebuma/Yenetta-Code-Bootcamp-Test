@@ -81,3 +81,45 @@
 .removefromstock:hover{
     color: rgb(243, 87, 10);
 }
+
+@media (max-width: 800px){
+    .product_component{
+        gap: 12px;
+        padding: 4px;
+        overflow: hidden;
+        margin: 5px 0 18px;
+
+    }
+    .product_component,
+    input,
+    button{
+      width: 90%;
+    }
+    /* .product_component, */
+    .product_component .content{
+        display: flex;
+        min-height: 250px;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .edit_delete{
+        right: 10px;
+        position: relative;
+    }
+    .product_component img{
+        height: 180px;
+        width: 80px;
+    }
+    .product_component h1{
+        font-size: 16px;
+    }
+    .product_component p{
+        font-size: 14px;
+    }
+  }
