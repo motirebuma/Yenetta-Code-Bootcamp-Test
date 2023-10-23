@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #282d3f;
+  padding-bottom: 150px;
+}
+h1.head{
+  font-size: 40px;
+  font-weight: 400;
+  color: #F6F1F1;
+  margin: 20px 0 0 10px;
+}
+form{
+  padding: 30px 20px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: #ed7d31 0px 8px 24px;
+}
+
+form h1{
+  font-weight: 400;
+  font-size: 'Ubuntu';
+  color: rgb(3, 40, 75)
+}
+form input{
+  width: 800px;
+  height: 45px;
+  padding: 2px 6px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #ed7d31;
+}
+form input[type='file']{
+  border: none;
+  padding: 0;
+  color: #ed7d31;
+}
+
+
+form button{
+  width: 800px;
+  height: 45px;
+  background-color: #ed7d31;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.empty_response{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.empty_response .emptyIcon{
+  margin-top: 10px;
+  font-size: 100px;
+  color: #ffffff;
+}
+.empty_response i{
+  color: #ed7d31;
+}
+
+form p.edit{
+  color: #fff;
+}
+form p.edit:hover{
+  color: #fff;
+}
+
