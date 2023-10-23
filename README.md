@@ -42,15 +42,15 @@ Project Link [Link](https://product-management-system-yc.vercel.app)
 
 
 --------------------------------------
-|![img!](screeenshots/all_products.png)|
+|![img!](/screeenshots/all_products.png)|
 --------------------------------------
-|![img!](screeenshots/create_product.png)|
+|![img!](/screeenshots/create_product.png)|
 --------------------------------------
-|![img!](screeenshots/out_of_stock.png)|
+|![img!](/screeenshots/out_of_stock.png)|
 --------------------------------------
-|![img!](screeenshots/stock.png)|
+|![img!](/screeenshots/stock.png)|
 --------------------------------------
-|![img!](screeenshots/edit_product.png)|
+|![img!](/screeenshots/edit_product.png)|
 --------------------------------------
 
 
