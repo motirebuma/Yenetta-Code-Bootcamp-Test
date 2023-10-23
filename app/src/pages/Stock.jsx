@@ -8,7 +8,7 @@ const InStock = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:9000/api/products_in_stock')
+    fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/products_in_stock')
       .then(response => response.json())
       .then(products => {
         setProducts(products);

@@ -8,7 +8,7 @@ const app = express();
 
 const corsOptions = {
     credentials: true,
-    origin: ['http://localhost:3000']
+    origin: ['https://api-yenetta-code-product-managemnet.onrender.com', 'http://localhost:3000']
 };
   
 app.use(cors(corsOptions));

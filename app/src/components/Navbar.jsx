@@ -7,7 +7,7 @@ const Navbar = () => {
 
   useEffect(() => {
     // Fetch all counts
-    fetch('http://localhost:9000/api/get_counts')
+    fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/get_counts')
       .then((response) => response.json())
       .then((data) => setCounts(data))
       .catch((error) => console.error('Error fetching counts:', error));

@@ -17,7 +17,7 @@ const CreateProduct = () => {
 
         ev.preventDefault();
         const response = await fetch(
-            'http://localhost:9000/api/create_product',{
+            'https://api-yenetta-code-product-managemnet.onrender.com/api/create_product',{
                 method: 'POST',
                 body: _data,
                 credentials: 'include',

@@ -14,7 +14,7 @@ const Product = ({ _id, title, price, description, cover }) => {
   // delete product using _id
   async function deleteProduct(_id) {
     try {
-      await fetch('http://localhost:9000/api/delete_product', {
+      await fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/delete_product', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const Product = ({ _id, title, price, description, cover }) => {
   // add product to stock
   async function addProductToStock(_id) {
     try {
-      await fetch('http://localhost:9000/api/add_product_to_stock', {
+      await fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/add_product_to_stock', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ const Product = ({ _id, title, price, description, cover }) => {
    // remove product from stock
    async function removeProductFromStock(_id) {
     try {
-      await fetch('http://localhost:9000/api/remove_from_stock', {
+      await fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/remove_from_stock', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -81,7 +81,7 @@ const Product = ({ _id, title, price, description, cover }) => {
     
     <>
     <div className='product_component'>
-      <img src={'http://localhost:9000/' + cover} alt='cover' />
+      <img src={'https://api-yenetta-code-product-managemnet.onrender.com/' + cover} alt='cover' />
       <div className="content">
         <h1>{title}</h1>
         <i>${price}</i>

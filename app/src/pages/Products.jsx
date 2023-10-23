@@ -10,7 +10,7 @@ const Products = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:9000/api/allproducts')
+    fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/allproducts')
       .then(response => response.json())
       .then(products => {
         setProducts(products);

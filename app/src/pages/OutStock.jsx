@@ -10,7 +10,7 @@ const OutStock = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:9000/api/products_out_of_stock')
+    fetch('https://api-yenetta-code-product-managemnet.onrender.com/api/products_out_of_stock')
       .then(response => response.json())
       .then(products => {
         setProducts(products);
